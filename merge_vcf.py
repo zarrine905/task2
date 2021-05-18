@@ -1,5 +1,5 @@
 #merge two vcf
-'''
+
 fc = open("file1.vcf","r")
 lines = fc.readlines()
 
@@ -19,7 +19,7 @@ for v1line in lines:
 #print(v1rowlist)
 #print(v1pos)
 fc.close()
-'''
+
 fo = open("file2.vcf", "r")
 olines = fo.readlines()
 v2pos = []
