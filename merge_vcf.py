@@ -30,7 +30,7 @@ for v2line in olines:
 		header2 += v2line
 	elif not v2line.startswith("#"):
 		v2rowlist.append(v2line)
-		v2pos = v2line.split()
+		v2line = v2line.split()
 		v2pos.append(v2line[1])
 print(v2rowlist[0])
 #print(v2pos)         #print POS column
